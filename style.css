@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: Calibri;
+    background: url(https://images.unsplash.com/photo-1442876906995-6761040d1f0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); 
+   background-size: cover;
+    width: 500px;
+    margin: auto;
+  }
+  
+  .container {
+    display: block;
+    margin: 50px;
+    width: 100%;
+    padding: 15px;
+    margin-inline: auto;
+    background: #080825;
+    text-align: center;
+  }
+  
+  img {
+    width: 35%;
+    align-content: center;
+    margin: 20px;
+  }
+  h1 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  p {
+    color: pink;
+    font-size: 35px;
+    opacity: 0.7;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+  
+  input, submit {
+    display: block;
+    width: 80%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    margin: 10px;
+  
+  }
+  input {
+    margin-bottom: 20px;
+    color: purple;
+  }
+  #submit {
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    transition: filter .2s;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  #button:hover {
+    filter: brigtness(1.2);
+    cursor: pointer;
+    background-color: #CCCCFF;
+    color: purple;
+   
+  }
+  #response {
+    margin-top: 10px;
+    color: yellow;
+    background: black;
+    padding: 20px;
+    margin-bottom: 0;
+  }
+  
