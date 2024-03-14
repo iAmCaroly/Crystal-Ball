@@ -5,7 +5,7 @@
   body {
     font-family: Calibri;
     background: url(https://images.unsplash.com/photo-1442876906995-6761040d1f0b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80); 
-   background-size: cover;
+    background-size: cover;
     width: 500px;
     margin: auto;
   }
@@ -21,7 +21,7 @@
   }
   
   img {
-    width: 35%;
+    width: 100%;
     align-content: center;
     margin: 20px;
   }
